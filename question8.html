@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-transform: capitalize;
+        }
+      table, tr, td{
+        border: 1px solid black;
+     }
+    
+    </style>
+</head>
+
+<body>
+    <h2>conference schedule</h2>
+    <table>
+        <tr>
+            <td><b>time</b></td>
+            <td><b>room1</b></td>
+            <td><b>room2</b></td>
+            <td><b>room3</b></td>
+            <td><b>room4</b></td>
+        </tr>
+        <tr>
+            <td rowspan="3">9:00 am-10:00 am</td>
+            <td rowspan="2">
+                keynote
+            </td>
+            <td>section a</td>
+            <td>section b</td>
+            <td rowspan="3">section c</td>
+        </tr>
+        <tr>
+            <td>section d</td>
+            <td>section e</td>
+        </tr>
+        <tr>
+            <td>10:30 am -11:30 am</td>
+            <td colspan="2">section f</td>
+        </tr>
+        <tr>
+            <td>12:00 pm-1:00pm</td>
+            <td colspan="4">lunch break</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1:00pm-2:00</td>
+            <td>section g</td>
+            <td rowspan="2">section h</td>
+            <td>section i</td>
+            <td>section j</td>
+        </tr>
+        <tr>
+            <td>section k</td>
+            <td>section l</td>
+            <td>section m</td>
+        </tr>
+    </table>
+</body>
+
+</html>
